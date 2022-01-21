@@ -1,5 +1,5 @@
 import random
-dc_first = ("Bat","Super", "Wonder", "The", "Green", "Aqua", "Cat")
+dc_first = ("Bat","Super", "Wonder", "Green", "Aqua", "Cat")
 dc_last = ("man","woman","flash","lantern")
 marvel_first = ("Spider", "Iron", "The", "Black", "Thor", "Captain", "Doctor", "Ant")
 marvel_last = ("man", "hulk", "panther", "widow", "america", "strange")
