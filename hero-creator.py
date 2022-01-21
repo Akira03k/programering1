@@ -13,14 +13,8 @@ mega2 = gen2 +gen4
 firstn = random.sample(mega1, 1)
 lastn = random.sample(mega2, 1)
 def listToString(s): 
-    
-    # initialize an empty string
-    str1 = "" 
-    
-    # traverse in the string  
+    str1 = ""   
     for ele in s: 
-        str1 += ele  
-    
-    # return string  
+        str1 += ele    
     return str1 
 print(listToString(firstn + lastn))
