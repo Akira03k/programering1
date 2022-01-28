@@ -7,16 +7,20 @@ gen1 = random.sample(dc_first, 1)
 gen2 = random.sample(dc_last, 1)
 gen3 = random.sample(marvel_first, 1)
 gen4 = random.sample(marvel_last, 1)
+gen5 = random.sample(hero_action, 1)
 mega1 = gen1 + gen3
-mega2 = gen2 +gen4
+mega2 = gen2 + gen4
 
 
+
+hero_action = ("is running", "saved everyone", "defeated the villain")
 
 firstn = random.sample(mega1, 1)
 lastn = random.sample(mega2, 1)
+hero_action = random.sample(1)
 def listToString(s): 
     str1 = ""   
     for ele in s: 
         str1 += ele    
     return str1 
-print(listToString(firstn + lastn))
+print(listToString(firstn + lastn + hero_action ))
